@@ -5,18 +5,16 @@
         .directive('ghRepo', ghRepo);
 
     function ghRepo() {
-        return {
 
-            templateUrl: '/repos/gh-repo.template.html',
+        return {
+            templateUrl: 'repos/gh-repo.template.html',
             restrict: 'E',
             scope: {
-              repo: '=repo',
+              repo: '=',
             }
         };
+
     }
-
-
-
 
 
 }());
