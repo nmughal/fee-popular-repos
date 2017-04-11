@@ -12,5 +12,4 @@ This project utilizes an angular directive to retrieve a list of repositories fo
 
 
 ## Contributors
-Jordan Kasper
-Nadia Mughal
+Jordan Kasper & Nadia Mughal
