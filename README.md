@@ -11,6 +11,6 @@ Clone this repo, then run an http server in the `src/` directory. Be sure to typ
 This project utilizes an angular directive to retrieve a list of repositories for a given user, which can be used on other pages of the site in the future.
 
 
-##Contributors
+## Contributors
 Jordan Kasper
 Nadia Mughal
