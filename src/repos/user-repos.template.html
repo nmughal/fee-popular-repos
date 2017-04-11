@@ -7,6 +7,6 @@
 
 <section class='gh-repos'>
 
-    <gh-repo ng-repeat='repo in reposCtrl.list' repo='repo'></gh-repo>
+    <gh-repo ng-repeat='repo in reposCtrl.list | popularityOrdering' repo='repo'></gh-repo>
 
 </section>
