@@ -7,12 +7,11 @@
     function ghRepo() {
         return {
 
-          templateUrl: '/repos/gh-repo.template.html',
-          restrict: 'E',
-          scope: {
+            templateUrl: '/repos/gh-repo.template.html',
+            restrict: 'E',
+            scope: {
               repo: '=repo',
-              
-          }
+            }
         };
     }
 
