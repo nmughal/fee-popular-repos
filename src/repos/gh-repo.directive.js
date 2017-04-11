@@ -10,7 +10,7 @@
             templateUrl: 'repos/gh-repo.template.html',
             restrict: 'E',
             scope: {
-              repo: '=',
+              repo: '='
             }
         };
 
